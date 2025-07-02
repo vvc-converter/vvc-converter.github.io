@@ -54,8 +54,7 @@
     * { box-sizing: border-box; }
     body {
       margin: 0;
-      margin-right: -20px;
-      margin-left: -20px;
+      padding: 0;
       font-family: "Segoe UI", sans-serif;
       background: #f1f3f6;
       color: #000;
@@ -71,17 +70,17 @@
       position: relative;
     }
     .lang-toggle {
-      position: absolute;
-      right: 50px;
-      top: 20px;
-      background: white;
-      color: #000;
-      border: none;
-      border-radius: 6px;
-      padding: 6px 14px;
-      font-size: 14px;
-      cursor: pointer;
-    }
+    position: absolute;
+    right: 20px;
+    top: 100px;
+    background: white;
+    color: #000;
+    border: none;
+    border-radius: 6px;
+    padding: 6px 14px;
+    font-size: 14px;
+    cursor: pointer;
+}
     .layout {
       display: flex;
       justify-content: center;
@@ -156,10 +155,7 @@
       .layout { flex-direction: column; align-items: center; }
       .side { flex-direction: row; justify-content: center; flex-wrap: wrap; }
       .square {
-        width: 45vw;
-        height: 45vw;
-        max-width: 200px;
-        max-height: 290px;
+        display: none;
       }
       .container {
         width: 100%;
@@ -198,7 +194,7 @@
       </div>
       <div class="details">
         <p data-lang="ru" class="active">VVC Converter — программа для конвертации видео в формат VVC (H.266) с использованием современных инструментов</p>
-        <p data-lang="en">VVC Converter is a tool for converting videos to VVC (H.266) using modern encoding tools</p>
+        <p data-lang="en">VVC Converter is a tool for converting MP4 videos to VVC (H.266) using modern encoding tools</p>
         <p data-lang="ru" class="active">Установка занимает минимум времени</p>
         <p data-lang="en">Installation takes minimal time</p>
       </div>
