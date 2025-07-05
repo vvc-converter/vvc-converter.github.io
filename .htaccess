@@ -17,6 +17,6 @@
 
 <FilesMatch "sitemap\.xml(\.gz)?$">
   <IfModule mod_headers.c>
-    Header set Cache-Control "max-age=86400, public"
+    Header set Cache-Control "max-age=31536000, public"
   </IfModule>
 </FilesMatch>
