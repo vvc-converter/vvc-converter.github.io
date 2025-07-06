@@ -2,4 +2,3 @@ User-agent: *
 Allow: /
 
 Sitemap: https://vvc-converter.github.io/sitemap.xml
-Host: vvc-converter.github.io
